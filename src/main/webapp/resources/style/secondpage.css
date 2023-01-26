@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #992e2e21;
+	margin: 0%;
+}
+
+header {
+	background-color: #83ca83;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+header nav {
+	font-style: italic;
+	font-size: xx-large;
+}
+
+header nav button {
+	margin-top: 5x;
+	background-color: rgb(0 177 255/ 75%);
+	border-radius: 16px;
+	border-color: black;
+	border-radius: 12px;
+	align-self: inherit;
+	color: brown;
+	font-size: x-large;
+	margin-left: 40px;
+}
+
+form {
+	padding :150px;
+}
+
+table {
+	 
+margin :auto;
+padding : 25px;
+border: 1px solid #892222;
+box-shadow :5px 9px   #892222;
+   
+    	
+}
+
+tr, td {
+	text-align: left;
+	padding: 15px;
+	font-size: xx-large;
+}
+
+tr td .f-btn:hover {
+	background-color: green;
+}
+
+tr td .f-btn {
+	font-size: x-large;
+	padding: 1px;
+}
+.f-btn{
+	cursor :pointer;
+	color: white;
+	background-color: #33cc65;
+	border-radius: 5em;
+}
+
+.nav1 {
+	margin-right: 50px;
+	float: right;
+}
+
+.nav2 {
+	float: right;
+}
+
+#service {
+	padding: 5px;
+	font-size: 20px;
+}
+
+#rate {
+	padding: 5px;
+	font-size: 20px;
+}
+
+footer {
+	background-color: #9593a0;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-family: arial;
+	font-size: 18.4px;
+	position: fixed;
+	width: 100%;
+	bottom: 0%;
+	left: 0%;
+}
