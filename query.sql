@@ -2,7 +2,7 @@ drop database if exists  mydb ;
 create database mydb;
 use mydb;
 create table customer(
-	 customer_id int auto_increment,
+	 customer_id int auto_increment primary key,
      customer_name varchar(20) not null,
      customer_phonenumber varchar(20)  not null,
      location varchar(20)  not null,
@@ -10,7 +10,7 @@ create table customer(
 );
 
 create table technician(
-	 idtechnician int auto_increment,
+	 idtechnician int auto_increment primary key,
      technician_name varchar(20) not null,
      technician_rating int  not null,
      services varchar(20)  not null,
